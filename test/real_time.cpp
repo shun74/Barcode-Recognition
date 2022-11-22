@@ -22,6 +22,7 @@ int main(int argc, char *argv[]) {
 
     cv::VideoCapture cap;
     cap.open(0, cv::CAP_V4L2);
+    // cap.open(0); // if above line doesn't work, please try this.
     if (cap.isOpened() == false) {
         cout << "Video file doesn't open !" << endl;
         return 0;
