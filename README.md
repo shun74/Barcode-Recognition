@@ -1,7 +1,9 @@
 # Barcode-Recognition
 Barcode Recognition (Pharmacode)
 
-This program can read the pharmacode. It can perform robust and fast detection even when multiple pharmacodes are in the picture.
+This program can read the pharmacode. It can perform robust and fast detection even when multiple pharmacodes are in the picture. 
+
+Best of my knowledge, this is the first public implemantation that can decode a pharmacode, as there no publicly available program. If anyone is familiar with barcode recognition algorithms, please help us improve the program.
 
 ## Environment
 - CMake 3.10
@@ -37,12 +39,15 @@ Realtime scan with camera. (Necessary to connect camera before run)
 ## Working Sample
 
 Test 1
+
 ![test1](./output/test_1_result.png)
 
 Test 2
+
 ![test2](./output/test_2_result.png)
 
 Multiple scan sample
+
 ![multiple](./output/multiple_sample.png)
 
 
@@ -95,7 +100,7 @@ For more detail.
 
 Some samples in [barcodes](/barcodes/).
 
-$ 755 = 2^0 + 2^1 + 2^3 + 2^3 + 2^5 + 2^6 + 2^7 + 2^8 + 2^8 $
+$755 = 2^0 + 2^1 + 2^3 + 2^3 + 2^5 + 2^6 + 2^7 + 2^8 + 2^8$
 
 ![755](/barcodes/Pharmacodecode755.png)
 
