@@ -6,6 +6,7 @@ This program can read the pharmacode. It can perform robust and fast detection e
 Best of my knowledge, this is the first public implemantation that can decode a pharmacode, as there no publicly available program. If anyone is familiar with barcode recognition algorithms, please help us improve the program.
 
 ## Environment
+---
 - CMake 3.10
 - Ubuntu 20.04 LTS  
 - OpenCV 4.5.2
@@ -13,6 +14,7 @@ Best of my knowledge, this is the first public implemantation that can decode a 
 
 
 ## Build & Run
+---
 
 ### Clone & Build 
 
@@ -36,7 +38,20 @@ Realtime scan with camera. (Necessary to connect camera before run)
 ./build/real_time ./config/fast_run_config.conf
 ```
 
+## Performance
+---
+
+Preparing two configurations and measured execution times. Also mesured the execution time on edge device. it may be possible to improve the settings for even faster detection.
+
+| config  | Core i7-10700K | Raspberry-pi 3B |
+|---------|---------------:|----------------:|
+| sample  |5.4 ms (185 fps)| 104 ms (9.6 fps)|
+| fast_run|3.1 ms (322 fps)| 35 ms (28.5 fps)|
+
+You can execute this detection even on devices with limited computing resources.
+
 ## Working Sample
+---
 
 Test 1
 
@@ -52,6 +67,7 @@ Multiple scan sample
 
 
 ## Config
+---
 
 To make this program more flexible, some configs exists. 
 
@@ -76,6 +92,7 @@ For specific values, see [config](/config/).
 
 
 ## What is the Pharmacode ?
+---
 
 > Pharmacode, also known as Pharmaceutical Binary Code, is a barcode standard, used in the pharmaceutical industry as a packing control system. [Wikipedia](https://en.wikipedia.org/wiki/Pharmacode)
 
