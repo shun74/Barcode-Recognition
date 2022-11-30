@@ -122,3 +122,11 @@ $755 = 2^0 + 2^1 + 2^3 + 2^3 + 2^5 + 2^6 + 2^7 + 2^8 + 2^8$
 ![755](/barcodes/Pharmacodecode755.png)
 
 [Online pharmacode generator](https://products.aspose.app/barcode/ja/generate/pharmacode)
+
+## Publication
+
+For more detail. Please check these...
+
+[Qiita](https://qiita.com/syunnsyunn74/items/a9f53a43430524280cdb)
+
+[Speaker Deck](https://speakerdeck.com/shun74/pharmacode-decoder)
